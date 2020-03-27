@@ -15,7 +15,7 @@ export default function RegisterSuccess({ children }) {
         <section>
           <img src={logoImg} alt="Be The Hero" />
           <h1> Cadastro realizado com sucesso! </h1>
-          <p>Abaixo está a sua chave de acesso: </p>
+          <p>Chave de acesso: </p>
           <h1 style={{
               background: "#fff",
               padding: 20,
@@ -26,7 +26,6 @@ export default function RegisterSuccess({ children }) {
           </h1>
           <button 
             className="button"
-            // Utilizando history push somente para aprender
             onClick={() => history.push('/')}
           >
             Fazer logon
