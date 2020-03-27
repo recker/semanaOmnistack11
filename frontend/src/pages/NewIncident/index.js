@@ -21,6 +21,13 @@ export default function NewIncident() {
     const [description, setDescription] = useState("");
     const [value, setValue] = useState("");
 
+    async function handleReset(e) {
+        e.preventDefault();
+        setTitle("");
+        setDescription("");
+        setValue("");
+    }
+
     async function handleNewIncident(e) {
         e.preventDefault();
 
@@ -60,6 +67,7 @@ export default function NewIncident() {
                 <form 
                     id="new-incident"
                     onSubmit={handleNewIncident}
+                    onReset={handleReset}
                 >
                     <input 
                         placeholder="Título do caso"
