@@ -34,7 +34,7 @@ export default function Register() {
 
     try {
       const response = await api.post('ongs', data);
-      setOngKey(response.data.key);
+      setOngKey(response.data.id);
       setSuccessRegistration(true);
     } catch (error) {
       setSuccessRegistration(false);
