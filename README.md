@@ -4,7 +4,7 @@ Pratica da semana Omnistack 11
 
 projeto de aplicação para facilitar doações a ONG's realizado durante a semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/) de 23 a 27 de março de 2020.
 
-Com aulas online de [Diego Fernandes] (https://github.com/diego3g).
+Com aulas online de [Diego Fernandes](https://github.com/diego3g).
   
 ## Projeto
 
